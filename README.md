@@ -46,7 +46,7 @@ Preprocessing Pipeline
 ### Installation
 This code built and tested with Python 3.7.4, included package scikit-learn 1.0.1, pandas 1.3.4, numpy 1.21.4, scipy 1.7.2, matplotlib 3.4.3, and seaborn 0.11.2.
 
-### Reference
+## Reference
 https://www.kaggle.com/dpaluszk/stroke-pred-struggling-with-lack-of-data-70-recall/notebook?scriptVersionId=60039314
 https://www.kaggle.com/srajankumarshetty/strokeprediction-recall-as-performance-metrics/data
 https://www.kaggle.com/alexkaggle95/stroke-risk-fbeta-and-recall-are-the-key/notebook
