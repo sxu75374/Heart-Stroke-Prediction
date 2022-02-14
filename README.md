@@ -28,8 +28,12 @@ In this project, I use the [Heart Stroke Prediction dataset from WHO](https://ww
 
 ## Contents
 Data EDA
+
 Preprocessing Pipeline
+
 Measurement Metrics Selection
+
+Model Selection
 
 ## Screenshots
 <br />
