@@ -22,12 +22,14 @@
 
 ## About The Project
 
-In this project, I use the [Life Expectancy dataset from WHO](https://www.kaggle.com/kumarajarshi/life-expectancy-who) to analyze the health factor related to the life expectancy and predict life expectancy. The observations of this dataset are based on different countries from a period of years between 2000 and 2015 and feature consist of several aspects of factors that may influence the life expectancy of the population. We aim to predict the numeric life expectancy of each country which could be converted into a regression problem based on different supervised learning algorithms and feature preprocessing techniques. Also we implement different semi-supervised regression learning algorithms for the sake of dealing with label-expensive real world problems <!--引用算法和论文-->. Then, the last part is Transfer learning which we use to learn the knowledge from the developing countries and use them to help predict the developing countries.
+In this project, I use the [Heart Stroke Prediction dataset from WHO](https://www.kaggle.com/fedesoriano/stroke-prediction-dataset) to .
 
-By analyzing this dataset, we could figure out which factors may significantly contribute to life expectancy and the analysis result could give suggestions to those countries and help improve life expectancy, which makes the project essentially important and meaningful.
+
 
 ## Contents
+Data EDA
 Preprocessing Pipeline
+Measurement Metrics Selection
 
 ## Screenshots
 <br />
