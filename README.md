@@ -65,7 +65,7 @@ https://www.kaggle.com/alexkaggle95/stroke-risk-fbeta-and-recall-are-the-key/not
 
 [Profile](https://github.com/sxu75374) - <a href="mailto:sxu75374@usc.edu?subject=Nice to meet you!&body=Hi Shuai!">Email</a>
 
-Project Link: [https://github.com/sxu75374/LifeExpectancyPrediction](https://github.com/sxu75374/LifeExpectancyPrediction)
+Project Link: [https://github.com/sxu75374/Heart-Stroke-Prediction](https://github.com/sxu75374/Heart-Stroke-Prediction)
 
 <!-- LICENSE -->
 ## License
