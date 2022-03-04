@@ -22,7 +22,13 @@
 
 ## About The Project
 
-In this project, I use the [Heart Stroke Prediction dataset from WHO](https://www.kaggle.com/fedesoriano/stroke-prediction-dataset) to .
+In this project, I use the [Heart Stroke Prediction dataset from WHO](https://www.kaggle.com/fedesoriano/stroke-prediction-dataset) to predict the heart stroke.
+The final result of my project got the highest rank among all teams and above the majority score.
+
+In the Heart Stroke dataset, two class is totally -imbalanced- and heart stroke datapoints will be easy to ignore to compare with the no heart stroke datapoints.
+Thus, I focus on the Recall, Specificity, Sensitivity, f2 score and ROC AUC of the stroke data, which has more weight on the stroke class, but not treat non-stroke and stroke data as two same weighted classes. Simply focus on the Accuracy, Precision and f1 score will lead to a very low recall and probabality all predicted as non-stroke (label 0). A stroke prediction system needs to focus on the stroke detection, not a very high accuracy cause by only detecting no stroke datapoints. 
+
+ROC AUC uses true positive rate and false positive rate as the y-axis and x-axis, that should be useful to ignore the imbalanced class weight and measure the performance in a general case. Also, Specificity and Sensitivity are not influenced by the true probability of the class label as objective measurement metrics. For f1 and f2 score, the high precision low recall and low precision high recall will give us the same f1 score, but we just need the high recall one, thus f1 score should not be a good measurement for this dataset. F2 score has a larger beta to compare with the f1 score, it has a higher weight on recall to compare with f1.
 
 
 
