@@ -14,7 +14,7 @@
           <li><a href="#data-eda">Data EDA</a></li>
           <li><a href="#preprocessing-pipeline">Preprocessing Pipeline</a></li>
           <li><a href="#metrics-and-analysis">Metrics and Analysis</a></li>
-          <li><a href="#model-selection">Metrics and Analysis</a></li>
+          <li><a href="#model-selection">Model Selection</a></li>
           <li><a href="#results">Results</a></li>
       </ul>
     <li><a href="#screenshots">Screenshots</a></li>
