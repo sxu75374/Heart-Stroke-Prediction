@@ -10,6 +10,13 @@
   <ol>
     <li><a href="#about-the-project">About The Project</a></li>
     <li><a href="#contents">Contents</a></li>
+      <ul>
+          <li><a href="#data-eda">Data EDA</a></li>
+          <li><a href="#preprocessing-pipeline">Preprocessing Pipeline</a></li>
+          <li><a href="#metrics-and-analysis">Metrics and Analysis</a></li>
+          <li><a href="#model-selection">Metrics and Analysis</a></li>
+          <li><a href="#results">Results</a></li>
+      </ul>
     <li><a href="#screenshots">Screenshots</a></li>
     <li><a href="#built-with">Built With</a></li>
       <ul>
