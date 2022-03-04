@@ -91,7 +91,7 @@ Best model is Logistic Regression with the highest recall, f2, sensitivity, spec
 - [Python 3.7.4](https://www.python.org/downloads/release/python-374/)
 
 ### Installation
-This code built and tested with Python 3.7.4, included package scikit-learn 1.0.1, pandas 1.3.4, numpy 1.21.4, scipy 1.7.2, matplotlib 3.4.3, and seaborn 0.11.2.
+This code built and tested with Python 3.7.4, included package scikit-learn 1.0.1, pandas 1.3.4, numpy 1.21.4, imblearn 0.9.0, matplotlib 3.4.3, and seaborn 0.11.2.
 
 ## Reference
 https://www.kaggle.com/dpaluszk/stroke-pred-struggling-with-lack-of-data-70-recall/notebook?scriptVersionId=60039314
