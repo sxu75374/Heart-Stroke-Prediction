@@ -45,7 +45,7 @@ Model Selection
   <img src="screenshots/mis.png" alt="mis" width="530" height="400">
   <img src="screenshots/fi.png" alt="fi" width="500" height="450">
   <img src="screenshots/corr.png" alt="corr" width="530" height="450">
-  <img src="screenshots/corr.png" alt="roc" width="530" height="450">
+  <img src="screenshots/log thre rc.png" alt="roc" width="530" height="450">
 </div>
 
 
