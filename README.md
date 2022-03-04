@@ -74,9 +74,9 @@ Logistic Regression, Naive Bayes, Bernolli Bayes, Decison Tree, Random Forest Cl
 ### Results
 Best model is Logistic Regression with the highest recall, f2, sensitivity, specificity and ROC AUC
 
-| Best Model | Recall | Specificity | Sensitivity | f1 | f2 | roc_suc |
-| :------: | :------: | :------: | :------: | :------: | :------: | :------: |
-| Logistic Regression | 0.775 | 0.768 | 0.775 | 0.257 | 0.429 | 0.855 |
+| Best Model | Accuracy | Precision | Recall | Specificity | Sensitivity | f1 | f2 | roc_suc |
+| :------: | :------: | :------: | :------: | :------: | :------: | :------: | :------: | :------: |
+| Logistic Regression | 0.77 | 0.1542 | 0.775 | 0.768 | 0.775 | 0.257 | 0.429 | 0.855 |
 
 ## Screenshots
 <br />
