@@ -24,7 +24,7 @@
 
 In this project, I use the [Heart Stroke Prediction dataset from WHO](https://www.kaggle.com/fedesoriano/stroke-prediction-dataset) to predict the heart stroke. **In the Heart Stroke dataset, two class is totally imbalanced and heart stroke datapoints will be easy to ignore to compare with the no heart stroke datapoints.** Recall is very useful when you have to correctly classify some event that has already occurred and rarely happens. For example, cancer detection and fraud detection models must have a high recall in order to detect cancer and frauds properly. In such situations, we don't care about the real 0s (non-stroke, non-fraud), because we are interested only in spotting the real 1s (stroke, cancer, fraud, etc.) as often as possible.
 
-The final result of my project got the highest rank among all teams and above the majority score.
+Logistic Regression performs best in this project. The final result of my project got the highest rank among all teams and above the majority score. 
 
 ## Contents
 
@@ -73,6 +73,13 @@ ROC AUC uses true positive rate and false positive rate as the y-axis and x-axis
 #### Models for Comparison 
 Logistic Regression, Naive Bayes, Bernolli Bayes, Decison Tree, Random Forest Classifier, AdaBoost Classifier, Support Vector Machine, K Nearest Classifier 
 
+### Results
+Best model is Logistic Regression with the highest recall, f2, sensitivity, specificity and ROC AUC
+
+| Best Model | Recall | Specificity | Sensitivity | f1 | f2 | roc_suc |
+| :------: | :------: | :------: | :------: | :------: | :------: | :------: |
+| Logistic Regression | 0.775 | 0.768 | 0.775 | 0.257 | 0.429 | 0.855 |
+
 ## Screenshots
 <br />
 <div align="center">
@@ -81,7 +88,6 @@ Logistic Regression, Naive Bayes, Bernolli Bayes, Decison Tree, Random Forest Cl
   <img src="screenshots/corr.png" alt="corr" width="530" height="450">
   <img src="screenshots/log thre rc.png" alt="roc" width="510" height="420">
 </div>
-
 
 ## Built With
 - [Python 3.7.4](https://www.python.org/downloads/release/python-374/)
