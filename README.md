@@ -25,9 +25,25 @@
 In this project, I use the [Heart Stroke Prediction dataset from WHO](https://www.kaggle.com/fedesoriano/stroke-prediction-dataset) to predict the heart stroke. **In the Heart Stroke dataset, two class is totally imbalanced and heart stroke datapoints will be easy to ignore to compare with the no heart stroke datapoints.** The final result of my project got the highest rank among all teams and above the majority score.
 
 ## Contents
-Data EDA
 
-Preprocessing Pipeline
+### Data EDA
+- Data Info: The Heart Stroke dataset has 11 features and 1 binary output. The features include 4 integers, 2 float, and 5 categorical features. Training set has 3859 datapoints and Test set has 1251 datapoints.
+- Missing Values: We could find that there are 150 missing values in the Training set and 51 missing values in the Test set.
+- *Imbalance*: The Training set has 3676 non-stroke (95.2578%) and 183 stroke (4.7422%) datapoints, which the classes are totally imbalance.
+
+### Preprocessing Pipeline
+Load Data -> 
+Exploratory Data Analysis and Data Visualization (missing value, categorical features, imbalance, correlation, feature important) -> 
+Data Scrubbing (with median value of bmi) –> 
+Data preprocessing (one hot encoding and Label encoding) –> 
+Training data split into train set and validation set, and set Test set aside to avoid Data snooping –>
+Normalization on train, val, and test based on the training set -> 
+Deal with Imbalance (Oversampling/Undersampling) –>
+Choose Evaluation Metrics and Model Selection (8 models) –>
+Use GridSearchCV to tune the hyperparameters of selected models (first 4 better models among 8) –>
+Change the threshold of probabilty to get the final validation prediction results ->
+Use Test set to predict final result.
+
 
 ### Metrics and Analysis
 For measurements, I focus on the `Recall`, `Specificity`, `Sensitivity`, `f2 score (fbeta score with beta=2)` and `ROC AUC` of the stroke data, which has more weight on the stroke class, but not treat non-stroke and stroke data as two same weighted classes. Simply focus on the Accuracy, Precision and f1 score will lead to a very low recall and probabality all predicted as non-stroke (label 0). A stroke prediction system needs to focus on the stroke detection, not a very high accuracy cause by only detecting no stroke datapoints. 
@@ -37,15 +53,17 @@ ROC AUC uses true positive rate and false positive rate as the y-axis and x-axis
 <div align="center">
   <img src="screenshots/fbeta.png" alt="fbeta" width="350" height="65">
 </div>
-Model Selection
+
+### Model Selection
+
 
 ## Screenshots
 <br />
 <div align="center">
-  <img src="screenshots/mis.png" alt="mis" width="530" height="400">
+  <img src="screenshots/mis.png" alt="mis" width="550" height="450">
   <img src="screenshots/fi.png" alt="fi" width="500" height="450">
   <img src="screenshots/corr.png" alt="corr" width="530" height="450">
-  <img src="screenshots/log thre rc.png" alt="roc" width="530" height="450">
+  <img src="screenshots/log thre rc.png" alt="roc" width="510" height="420">
 </div>
 
 
