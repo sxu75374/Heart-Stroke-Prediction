@@ -42,10 +42,9 @@ Model Selection
 ## Screenshots
 <br />
 <div align="center">
-  <img src="screenshots/screenshot1.png" alt="screenshot1" width="570" height="400">
-  <img src="screenshots/screenshot2.png" alt="screenshot2" width="500" height="500">
-  <img src="screenshots/screenshot3.png" alt="screenshot3" width="530" height="400">
-  <img src="screenshots/screenshot4.png" alt="screenshot4" width="570" height="400">
+  <img src="screenshots/mis.png" alt="mis" width="570" height="400">
+  <img src="screenshots/fi.png" alt="fi" width="500" height="500">
+  <img src="screenshots/corr.png" alt="corr" width="530" height="400">
 </div>
 
 
