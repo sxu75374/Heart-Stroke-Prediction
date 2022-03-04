@@ -34,14 +34,12 @@ In this project, I use the [Heart Stroke Prediction dataset from WHO](https://ww
 Logistic Regression performs best in this project. The final result of my project got the highest rank among all teams and above the majority score. 
 
 ## Contents
-
 ### Data EDA
 - Data Info: The Heart Stroke dataset has 11 features and 1 binary output. The features include 4 integers, 2 float, and 5 categorical features. Training set has 3859 datapoints and Test set has 1251 datapoints.
 - Missing Values: We could find that there are 150 missing values in the Training set and 51 missing values in the Test set.
 - *Imbalance*: The Training set has 3676 non-stroke (95.2578%) and 183 stroke (4.7422%) datapoints, which the classes are totally imbalance.
 
 ### Preprocessing Pipeline
-
 | Preprocessing Pipeline |
 | :------: |
 | Load Data |
@@ -56,7 +54,6 @@ Logistic Regression performs best in this project. The final result of my projec
 | Change the threshold of probabilty to get the final validation prediction results |
 | Use Test set to predict final result |
 
-
 ### Metrics and Analysis
 For measurements, I focus on the `Recall`, `Specificity`, `Sensitivity`, `f2 score (fbeta score with beta=2)` and `ROC AUC` of the stroke data, which has more weight on the stroke class, but not treat non-stroke and stroke data as two same weighted classes. Simply focus on the Accuracy, Precision and f1 score will lead to a very low recall and probabality all predicted as non-stroke (label 0). A stroke prediction system needs to focus on the stroke detection, not a very high accuracy cause by only detecting no stroke datapoints. 
 
@@ -70,6 +67,7 @@ ROC AUC uses true positive rate and false positive rate as the y-axis and x-axis
 #### Baseline Models
 - Trivial Baseline model: Mode of the Train set label which should be all 0 (no stroke) for our dataset.
 - Non-Trivial Baseline model: default 1-NN model
+- 
 #### Models for Comparison 
 Logistic Regression, Naive Bayes, Bernolli Bayes, Decison Tree, Random Forest Classifier, AdaBoost Classifier, Support Vector Machine, K Nearest Classifier 
 
@@ -92,7 +90,6 @@ Best model is Logistic Regression with the highest recall, f2, sensitivity, spec
 ## Built With
 - [Python 3.7.4](https://www.python.org/downloads/release/python-374/)
 
-
 ### Installation
 This code built and tested with Python 3.7.4, included package scikit-learn 1.0.1, pandas 1.3.4, numpy 1.21.4, scipy 1.7.2, matplotlib 3.4.3, and seaborn 0.11.2.
 
@@ -101,7 +98,6 @@ https://www.kaggle.com/dpaluszk/stroke-pred-struggling-with-lack-of-data-70-reca
 https://www.kaggle.com/srajankumarshetty/strokeprediction-recall-as-performance-metrics/data
 https://www.kaggle.com/alexkaggle95/stroke-risk-fbeta-and-recall-are-the-key/notebook
 <!--## further improvement-->
-
 
 ## Author
 
