@@ -22,7 +22,9 @@
 
 ## About The Project
 
-In this project, I use the [Heart Stroke Prediction dataset from WHO](https://www.kaggle.com/fedesoriano/stroke-prediction-dataset) to predict the heart stroke. **In the Heart Stroke dataset, two class is totally imbalanced and heart stroke datapoints will be easy to ignore to compare with the no heart stroke datapoints.** The final result of my project got the highest rank among all teams and above the majority score.
+In this project, I use the [Heart Stroke Prediction dataset from WHO](https://www.kaggle.com/fedesoriano/stroke-prediction-dataset) to predict the heart stroke. **In the Heart Stroke dataset, two class is totally imbalanced and heart stroke datapoints will be easy to ignore to compare with the no heart stroke datapoints.** Recall is very useful when you have to correctly classify some event that has already occurred and rarely happens. For example, cancer detection and fraud detection models must have a high recall in order to detect cancer and frauds properly. In such situations, we don't care about the real 0s (non-stroke, non-fraud), because we are interested only in spotting the real 1s (stroke, cancer, fraud, etc.) as often as possible.
+
+The final result of my project got the highest rank among all teams and above the majority score.
 
 ## Contents
 
@@ -33,15 +35,25 @@ In this project, I use the [Heart Stroke Prediction dataset from WHO](https://ww
 
 ### Preprocessing Pipeline
 Load Data -> 
+
 Exploratory Data Analysis and Data Visualization (missing value, categorical features, imbalance, correlation, feature important) -> 
+
 Data Scrubbing (with median value of bmi) –> 
+
 Data preprocessing (one hot encoding and Label encoding) –> 
+
 Training data split into train set and validation set, and set Test set aside to avoid Data snooping –>
+
 Normalization on train, val, and test based on the training set -> 
+
 Deal with Imbalance (Oversampling/Undersampling) –>
+
 Choose Evaluation Metrics and Model Selection (8 models) –>
+
 Use GridSearchCV to tune the hyperparameters of selected models (first 4 better models among 8) –>
+
 Change the threshold of probabilty to get the final validation prediction results ->
+
 Use Test set to predict final result.
 
 
