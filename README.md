@@ -24,6 +24,11 @@
 
 In this project, I use the [Heart Stroke Prediction dataset from WHO](https://www.kaggle.com/fedesoriano/stroke-prediction-dataset) to predict the heart stroke. **In the Heart Stroke dataset, two class is totally imbalanced and heart stroke datapoints will be easy to ignore to compare with the no heart stroke datapoints.** The final result of my project got the highest rank among all teams and above the majority score.
 
+## Contents
+Data EDA
+
+Preprocessing Pipeline
+
 ### Metrics and Analysis
 For measurements, I focus on the `Recall`, `Specificity`, `Sensitivity`, `f2 score (fbeta score with beta=2)` and `ROC AUC` of the stroke data, which has more weight on the stroke class, but not treat non-stroke and stroke data as two same weighted classes. Simply focus on the Accuracy, Precision and f1 score will lead to a very low recall and probabality all predicted as non-stroke (label 0). A stroke prediction system needs to focus on the stroke detection, not a very high accuracy cause by only detecting no stroke datapoints. 
 
@@ -32,14 +37,6 @@ ROC AUC uses true positive rate and false positive rate as the y-axis and x-axis
 <div align="center">
   <img src="screenshots/fbeta.png" alt="fbeta" width="350" height="65">
 </div>
-
-## Contents
-Data EDA
-
-Preprocessing Pipeline
-
-Measurement Metrics Selection
-
 Model Selection
 
 ## Screenshots
