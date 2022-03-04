@@ -35,8 +35,9 @@ Logistic Regression performs best in this project. The final result of my projec
 
 ### Preprocessing Pipeline
 
-| Load Data |
+| Preprocessing Pipeline |
 | :------: |
+| Load Data |
 |  Exploratory Data Analysis and Data Visualization (missing value, categorical features, imbalance, correlation, feature important) |
 | Data Scrubbing (with median value of bmi) |
 | Data preprocessing (one hot encoding and Label encoding) |
