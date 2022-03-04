@@ -71,7 +71,7 @@ ROC AUC uses true positive rate and false positive rate as the y-axis and x-axis
 - Trivial Baseline model: Mode of the Train set label which should be all 0 (no stroke) for our dataset.
 - Non-Trivial Baseline model: default 1-NN model
 ##### Models for Comparison 
-
+Logistic Regression, Naive Bayes, Bernolli Bayes, Decison Tree, Random Forest Classifier, AdaBoost Classifier, Support Vector Machine, K Nearest Classifier 
 
 ## Screenshots
 <br />
