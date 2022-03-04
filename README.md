@@ -36,25 +36,16 @@ Logistic Regression performs best in this project. The final result of my projec
 ### Preprocessing Pipeline
 
 | Load Data |
-| :------:|
+| :------: |
 |  Exploratory Data Analysis and Data Visualization (missing value, categorical features, imbalance, correlation, feature important) |
-| :------: |
 | Data Scrubbing (with median value of bmi) |
-| :------: |
 | Data preprocessing (one hot encoding and Label encoding) |
-| :------: |
 | Training data split into train set and validation set, and set Test set aside to avoid Data snooping |
-| :------: |
 | Normalization on train, val, and test based on the training set |
-| :------: |
 | Deal with Imbalance (Oversampling/Undersampling) |
-| :------: |
 | Choose Evaluation Metrics and Model Selection (8 models) |
-| :------: |
 | Use GridSearchCV to tune the hyperparameters of selected models (first 4 better models among 8) |
-| :------: |
 | Change the threshold of probabilty to get the final validation prediction results |
-| :------: |
 | Use Test set to predict final result |
 
 
