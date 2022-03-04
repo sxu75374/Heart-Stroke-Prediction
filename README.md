@@ -45,7 +45,7 @@ The final result of my project got the highest rank among all teams and above th
 - Training data split into train set and validation set, and set Test set aside to avoid Data snooping 
 
 - Normalization on train, val, and test based on the training set 
-- 
+
 - Deal with Imbalance (Oversampling/Undersampling) 
 
 - Choose Evaluation Metrics and Model Selection (8 models) 
@@ -67,6 +67,10 @@ ROC AUC uses true positive rate and false positive rate as the y-axis and x-axis
 </div>
 
 ### Model Selection
+##### Baseline Models
+- Trivial Baseline model: Mode of the Train set label which should be all 0 (no stroke) for our dataset.
+- Non-Trivial Baseline model: default 1-NN model
+##### Models for Comparison 
 
 
 ## Screenshots
