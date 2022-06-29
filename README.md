@@ -103,7 +103,7 @@ https://www.kaggle.com/alexkaggle95/stroke-risk-fbeta-and-recall-are-the-key/not
 
 **Shuai Xu** | University of Southern California
 
-[Profile](https://github.com/sxu75374) - <a href="mailto:sxu75374@usc.edu?subject=Nice to meet you!&body=Hi Shuai!">Email</a>
+[Profile](https://github.com/sxu75374) - <a href="mailto:imshuaixu@gmail.com?subject=Nice to meet you!&body=Hi Shuai!">Email</a>
 
 Project Link: [https://github.com/sxu75374/Heart-Stroke-Prediction](https://github.com/sxu75374/Heart-Stroke-Prediction)
 
